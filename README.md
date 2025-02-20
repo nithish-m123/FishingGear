@@ -41,11 +41,12 @@ Fishing Gear E-Commerce is a **Spring Boot**-based web application that provides
 
 1️⃣ **Clone the Repository**:
 ```bash
- git clone https://github.com/your-username/fishing-gear-ecommerce.git
- cd fishing-gear-ecommerce
+ git clone https://github.com/nithish-m123/FishingGear.git
+ cd FishingGear
 ```
 
 2️⃣ **Configure the Database**:
+- import database **spring.sql**
 - Create a **MySQL database** named `spring`
 - Update `application.properties`:
 ```properties
@@ -88,11 +89,23 @@ mvn spring-boot:run
 ---
 
 ## 📸 Screenshots
-![Homepage](screenshots/homepage.png)  
-*Homepage with product listings*
+![Registration](Fishing Gear/new User.png)  
+*New User Registration*
 
-![Cart](screenshots/cart.png)  
-*Shopping cart functionality*
+
+
+![Login](Fishing Gear/Login.png)  
+*User Authentication*
+- It generates JWT token if an user successfully authorized.
+- The Token is valid for 3 minutes(for development purpose).
+  
+![Products](Fishing Gear/products.png)  
+*Product Browsing*
+- Available products are listed here.
+
+![Cart-Items](Fishing Gear/cart-items.png)  
+*Cart Items*
+- Cart Items are listed here.
 
 ---
 
