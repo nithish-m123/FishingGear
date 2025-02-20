@@ -3,6 +3,12 @@
 ## 🛍️ Overview
 Fishing Gear E-Commerce is a **Spring Boot**-based web application that provides a seamless shopping experience for fishing enthusiasts. Users can **browse products, add them to their cart, and make purchases securely**. The application integrates **Spring Security with JWT authentication** for secure user access and includes essential **CRUD operations** for managing products and orders.
 
+![FishingGear](https://img.shields.io/badge/FishingGear-Shop%20Fishing%20Essentials-blue?style=for-the-badge&logo=spring&logoColor=white)  
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-Backend-green?style=for-the-badge&logo=springboot&logoColor=white)  
+![MySQL](https://img.shields.io/badge/MySQL-Database-orange?style=for-the-badge&logo=mysql&logoColor=white)  
+![JWT](https://img.shields.io/badge/JWT-Authentication-red?style=for-the-badge&logo=jsonwebtokens&logoColor=white)  
+![E-Commerce](https://img.shields.io/badge/E--Commerce-Application-purple?style=for-the-badge&logo=google-shopping&logoColor=white)  
+
 ---
 
 ## ✨ Features
@@ -89,21 +95,25 @@ mvn spring-boot:run
 ---
 
 ## 📸 Screenshots
-![Registration](Fishing Gear/new User.png)  
+🔐✅**Registration** 
+![Registration](Fishing%20Gear/new%20User.png)
 *New User Registration*
+- Password is Encrypted
 
-
-
-![Login](Fishing Gear/Login.png)  
+🔐✅**Authentication** 
+![Login](Fishing%20Gear/Login.png)  
 *User Authentication*
 - It generates JWT token if an user successfully authorized.
 - The Token is valid for 3 minutes(for development purpose).
-  
-![Products](Fishing Gear/products.png)  
+- 
+ 🛍️📦**Products**
+![Products](Fishing%20Gear/products.png)  
 *Product Browsing*
 - Available products are listed here.
 
-![Cart-Items](Fishing Gear/cart-items.png)  
+🛒🧾**Cart Items**
+
+![Cart-Items](Fishing%20Gear/cart-items.png)  
 *Cart Items*
 - Cart Items are listed here.
 
